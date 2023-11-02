@@ -11,9 +11,9 @@ This is a simple to-do list website built using Django. It allows you to create,
 
 ## Video Demo
 
-[![Watch the video](https://drive.google.com/file/d/114GCcGxQ5wJppsCqAXd_HlFXDeBvOHpE/view?usp=sharing)]
+[![Watch the video]([https://your-image-link-here](https://drive.google.com/file/d/1Tct2eocq_4g0e9DpOA383ZSGOTUysW7T/view?usp=sharing))]([https://drive.google.com/file/d/114GCcGxQ5wJppsCqAXd_HlFXDeBvOHpE/view?usp=sharing](https://drive.google.com/file/d/114GCcGxQ5wJppsCqAXd_HlFXDeBvOHpE/view?usp=sharing))
 
-For a detailed demonstration of this project, check out the [video demo](https://drive.google.com/file/d/114GCcGxQ5wJppsCqAXd_HlFXDeBvOHpE/view?usp=sharing) on Google Drive.
+For a detailed demonstration of this project, check out the [video demo]([https://drive.google.com/file/d/114GCcGxQ5wJppsCqAXd_HlFXDeBvOHpE/view?usp=sharing](https://drive.google.com/file/d/114GCcGxQ5wJppsCqAXd_HlFXDeBvOHpE/view?usp=sharing)) on Google Drive.
 
 ## Contributing
 
