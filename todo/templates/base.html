@@ -1,0 +1,65 @@
+<!-- todo/templates/base.html -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    .fade-in {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 30;
+        }
+    }
+    .nav-link:hover {
+        animation: colorChange 0.3s ease-in-out;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: #333; /* Initial color */
+        }
+        100% {
+            color: #28a745; /* Target color */
+        }
+    }
+        /* Scale-up animation for the "Add" button */
+        .btn-primary:hover {
+        transform: scale(1.1); /* Scale up to 110% of the original size */
+        transition: transform 0.3s ease-in-out;
+    }
+</style>
+</head>
+ 
+ 
+<body class="bg-light">
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+ 
+ 
+{% block javascript %}
+<scr?pt src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></scr?pt>
+{% endblock %}
+ 
+</html>
